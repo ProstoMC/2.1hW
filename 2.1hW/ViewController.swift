@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var yellowView: UIView!
     @IBOutlet var greenView: UIView!
    
+    @IBOutlet var startButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -61,6 +61,7 @@
                     <connections>
                         <outlet property="greenView" destination="v1a-Pl-Tq8" id="7Pe-ud-3lN"/>
                         <outlet property="redView" destination="VWD-Nx-14Q" id="clh-It-SZW"/>
+                        <outlet property="startButton" destination="aGs-m3-4TH" id="VEU-hW-TZt"/>
                         <outlet property="yellowView" destination="vRt-NA-5JH" id="pKZ-0s-yqs"/>
                     </connections>
                 </viewController>
