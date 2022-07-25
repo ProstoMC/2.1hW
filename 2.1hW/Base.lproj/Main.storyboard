@@ -17,36 +17,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Juf-10-5R7">
-                                <rect key="frame" x="87" y="193" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Juf-10-5R7">
+                                <rect key="frame" x="15" y="59" width="384" height="402"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="2Pw-3N-nId"/>
-                                    <constraint firstAttribute="width" constant="240" id="4Tw-1d-uX7"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CwG-xd-Tj8">
-                                <rect key="frame" x="87" y="435" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CwG-xd-Tj8">
+                                <rect key="frame" x="15" y="476" width="384" height="371"/>
                                 <color key="backgroundColor" systemColor="systemBrownColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
                         <constraints>
-                            <constraint firstItem="Juf-10-5R7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="765-Qq-ju7"/>
-                            <constraint firstItem="CwG-xd-Tj8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="FM5-Z3-ZKe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Juf-10-5R7" secondAttribute="trailing" constant="5" id="TW7-Jg-MTU"/>
-                            <constraint firstItem="CwG-xd-Tj8" firstAttribute="centerX" secondItem="Juf-10-5R7" secondAttribute="centerX" id="bCe-tA-mRQ"/>
-                            <constraint firstItem="Juf-10-5R7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bhD-eV-oBS"/>
-                            <constraint firstItem="Juf-10-5R7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="dhK-EG-Jc7"/>
-                            <constraint firstItem="Juf-10-5R7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="exQ-w8-1Yg"/>
-                            <constraint firstItem="CwG-xd-Tj8" firstAttribute="centerY" secondItem="Juf-10-5R7" secondAttribute="centerY" id="mlQ-Na-0T8"/>
+                            <constraint firstItem="Juf-10-5R7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="9Ar-Pu-Ssh"/>
+                            <constraint firstItem="CwG-xd-Tj8" firstAttribute="height" secondItem="Juf-10-5R7" secondAttribute="height" multiplier="0.922424" id="FNg-R5-P7E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CwG-xd-Tj8" secondAttribute="bottom" constant="15" id="aDd-AA-gE4"/>
+                            <constraint firstItem="Juf-10-5R7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="bAf-Se-edI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CwG-xd-Tj8" secondAttribute="trailing" constant="15" id="bCR-cA-mQb"/>
+                            <constraint firstItem="CwG-xd-Tj8" firstAttribute="top" secondItem="Juf-10-5R7" secondAttribute="bottom" constant="15" id="dUo-bQ-q5P"/>
+                            <constraint firstItem="CwG-xd-Tj8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="m3C-1G-CTr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Juf-10-5R7" secondAttribute="trailing" constant="15" id="vcP-yS-Ky6"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="80"/>
+            <point key="canvasLocation" x="-794.20289855072474" y="51.5625"/>
         </scene>
     </scenes>
     <resources>
