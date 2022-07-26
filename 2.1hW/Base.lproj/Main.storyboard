@@ -20,17 +20,22 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VWD-Nx-14Q">
                                 <rect key="frame" x="132" y="59" width="150" height="150"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VWD-Nx-14Q" secondAttribute="height" multiplier="1:1" id="h9N-qr-TRa"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vRt-NA-5JH">
                                 <rect key="frame" x="132" y="224" width="150" height="150"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vRt-NA-5JH" secondAttribute="height" multiplier="1:1" id="Z4G-uw-VtU"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v1a-Pl-Tq8">
                                 <rect key="frame" x="132" y="389" width="150" height="150"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="Ksu-m6-tNg"/>
-                                    <constraint firstAttribute="height" constant="150" id="nHe-Bj-bGA"/>
+                                    <constraint firstAttribute="width" secondItem="v1a-Pl-Tq8" secondAttribute="height" multiplier="1:1" id="rpy-GL-Ihe"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGs-m3-4TH">
@@ -39,23 +44,25 @@
                                 <buttonConfiguration key="configuration" style="plain" title="START">
                                     <color key="baseForegroundColor" systemColor="tertiarySystemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="pressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="usF-8J-U6K"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="vRt-NA-5JH" firstAttribute="width" secondItem="VWD-Nx-14Q" secondAttribute="width" id="0fU-oq-f5t"/>
-                            <constraint firstItem="VWD-Nx-14Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CkF-16-zME"/>
-                            <constraint firstItem="vRt-NA-5JH" firstAttribute="height" secondItem="VWD-Nx-14Q" secondAttribute="height" id="MiV-jS-f2v"/>
-                            <constraint firstItem="vRt-NA-5JH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QY5-qK-wGz"/>
-                            <constraint firstItem="vRt-NA-5JH" firstAttribute="top" secondItem="VWD-Nx-14Q" secondAttribute="bottom" constant="15" id="XhB-sH-Vsg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aGs-m3-4TH" secondAttribute="bottom" constant="50" id="YgK-r4-ygV"/>
-                            <constraint firstItem="v1a-Pl-Tq8" firstAttribute="top" secondItem="vRt-NA-5JH" secondAttribute="bottom" constant="15" id="dev-5H-DVw"/>
-                            <constraint firstItem="v1a-Pl-Tq8" firstAttribute="width" secondItem="vRt-NA-5JH" secondAttribute="width" id="fNK-nd-UMw"/>
-                            <constraint firstItem="v1a-Pl-Tq8" firstAttribute="height" secondItem="vRt-NA-5JH" secondAttribute="height" id="k1W-wO-WJ5"/>
-                            <constraint firstItem="aGs-m3-4TH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n4h-qj-otP"/>
-                            <constraint firstItem="VWD-Nx-14Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="tbx-Pd-Qnz"/>
-                            <constraint firstItem="v1a-Pl-Tq8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vC3-AP-z2g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aGs-m3-4TH" secondAttribute="bottom" constant="50" id="2JJ-hb-awr"/>
+                            <constraint firstItem="VWD-Nx-14Q" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="75:448" id="5f6-Hg-HzI"/>
+                            <constraint firstItem="vRt-NA-5JH" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="75:448" id="88O-1e-QyW"/>
+                            <constraint firstItem="v1a-Pl-Tq8" firstAttribute="top" secondItem="vRt-NA-5JH" secondAttribute="bottom" constant="15" id="HOF-qw-fQ5"/>
+                            <constraint firstItem="v1a-Pl-Tq8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KxP-V4-4Il"/>
+                            <constraint firstItem="vRt-NA-5JH" firstAttribute="top" secondItem="VWD-Nx-14Q" secondAttribute="bottom" constant="15" id="LVa-wL-abv"/>
+                            <constraint firstItem="vRt-NA-5JH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NrX-0T-eml"/>
+                            <constraint firstItem="v1a-Pl-Tq8" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="75:448" id="WNa-3x-dVw"/>
+                            <constraint firstItem="aGs-m3-4TH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zcc-b5-ReM"/>
+                            <constraint firstItem="VWD-Nx-14Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c66-Jc-BdR"/>
+                            <constraint firstItem="VWD-Nx-14Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="zjH-Ki-lHv"/>
                         </constraints>
                     </view>
                     <connections>
@@ -67,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2104" y="-747"/>
+            <point key="canvasLocation" x="-2119" y="-1165"/>
         </scene>
     </scenes>
     <resources>
